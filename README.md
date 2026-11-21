@@ -1,8 +1,8 @@
 # AWS Three-Tier Architecture with Terraform
 
 A three-tier web infrastructure on AWS (ap-south-1) written entirely in Terraform.
-Built as a team project during my Cloud & DevOps internship and extended on my own
-with private subnets, a NAT gateway and an RDS database.
+Personal project to practise Terraform and AWS: a web tier (ALB), an app tier (Auto Scaling
+Group in private subnets) and a data tier (RDS MySQL).
 
 ## Architecture
 
