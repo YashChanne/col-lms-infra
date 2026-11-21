@@ -15,17 +15,17 @@ variable "sg_01" {
 
 variable "ssh_port" {
   type    = number
-  default = 22        # ✅ no quotes
+  default = 22 # ✅ no quotes
 }
 
 variable "http_port" {
   type    = number
-  default = 80        # ✅ no quotes
+  default = 80 # ✅ no quotes
 }
 
 variable "https_port" {
   type    = number
-  default = 443       # ✅ no quotes
+  default = 443 # ✅ no quotes
 }
 
 variable "all_traffic" {
@@ -130,6 +130,6 @@ variable "project_name" {
 
 variable "aws_region" {
   type    = string
-  default = "ap-south-1"   # ✅ Added for S3 backend & provider
+  default = "ap-south-1" # ✅ Added for S3 backend & provider
 }
 
